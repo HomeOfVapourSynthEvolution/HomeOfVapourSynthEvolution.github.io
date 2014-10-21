@@ -121,5 +121,18 @@
       <a href="https://github.com/HomeOfVapourSynthEvolution"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
     </div>
     <script src="javascripts/scale.fix.js"></script>
+    <script type="text/javascript">
+function loadHTTPSJS () {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = 'https://' + window.location.hostname + '/javascripts/https.fix.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(script, s);
+}
+if (window.location.protocol == 'http:') {
+  document.addEventListener("DOMContentLoaded", loadHTTPSJS, false);
+}
+    </script>
   </body>
 </html>
