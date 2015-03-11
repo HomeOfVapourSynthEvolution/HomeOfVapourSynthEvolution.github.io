@@ -243,6 +243,24 @@ footer {
   bottom:50px;
 }
 
+span.author {
+  display: inline;
+  padding: .1em .4em .2em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  border: 1px white solid;
+  margin-left: 1em;
+}
+span.author.mawen { border-color: #337ab7; color: #337ab7; content: 'Author: 馼'; }
+span.author.holy { border-color: #2ca82c; color: #2ca82c; content: 'Author: HolyWu'; }
+span.author.msg7086 { border-color: #855; color: #855; content: 'Author: msg7086'; }
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
@@ -313,3 +331,4 @@ footer {
     color:#444;
   }
 }
+
