@@ -257,9 +257,12 @@ span.author {
   border: 1px white solid;
   margin-left: 1em;
 }
-span.author.mawen { border-color: #337ab7; color: #337ab7; content: 'Author: 馼'; }
-span.author.holy { border-color: #2ca82c; color: #2ca82c; content: 'Author: HolyWu'; }
-span.author.msg7086 { border-color: #855; color: #855; content: 'Author: msg7086'; }
+span.author.mawen { border-color: #337ab7; color: #337ab7; }
+span.author.mawen span:before { content: 'Author: 馼'; }
+span.author.holy { border-color: #2ca82c; color: #2ca82c; }
+span.author.holy span:before { content: 'Author: HolyWu'; }
+span.author.msg7086 { border-color: #855; color: #855; }
+span.author.msg7086 span:before { content: 'Author: msg7086'; }
 
 @media print, screen and (max-width: 960px) {
   
